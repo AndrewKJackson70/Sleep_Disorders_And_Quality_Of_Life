@@ -22,11 +22,12 @@ and possible obstacles, and it allows us to formulate questions we can pose for 
 1. Fork the repo and clone the forked repo to your machine.
 2. Open Gitbash in Windows or Terminal in Mac and navigate to the project folder.
 3. Create and activate a virtual environment:  Commands for activating virtual env on git bash
-	-python -m venv .  # create venv in current directory [add "." or path here]
-	-cd Script # change directory to Scripts folder
-	- . activate  # run this command to activate venv and change directory back to project folder
+	python -m venv venv
+	cd venv, then cd Script 
+	. activate   (run this command to activate venv and change directory back to project folder when finished)
 4. Once the virtual environment is activated, run pip install -r requirements.txt 
-5. When the requirements have finished installing, simply type Jupyter Notebook into your terminal
-6. When Jupyter Notebook opens, navigate to the project folder and open the notebook, with the filename ending in ipynb
-7. Select run > run all from the menu at the top
-8. The project notebook is ready to interact with 
+5. When the requirements have finished installing, type pip install notebook
+6. Once Jupyter Notebook is installed, simply run the command Jupyter Notebook
+7. When Jupyter Notebook opens, navigate to the project folder and open the notebook, with the filename ending in ipynb
+8. Select run > run all from the menu at the top
+9. The project notebook is ready to interact with 
